@@ -1,9 +1,6 @@
-package com.dasungta.admin.Repository;
+package com.dasungta.admin.Domain.User;
 
-import com.dasungta.admin.Bean.User;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.

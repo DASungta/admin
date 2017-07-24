@@ -1,7 +1,9 @@
-package com.dasungta.admin.Bean;
+package com.dasungta.admin.Domain.User;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * Created with IntelliJ IDEA.
@@ -9,6 +11,8 @@ import javax.persistence.Id;
  * Date: 2017/7/24
  * Time: 17:55
  */
+@Entity
+@Table(name = "oa_admin_user")
 public class User {
 
     @Id
@@ -17,7 +21,6 @@ public class User {
     private String username;
     private String password;
     private String realname;
-
     public Integer getId() {
         return id;
     }
